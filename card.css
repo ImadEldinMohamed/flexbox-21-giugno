@@ -1,0 +1,50 @@
+.card {
+    border: 2px solid rgb(255, 254, 254);
+    width: 270px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 228, 232);
+    margin: auto;
+}
+
+
+article img {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+button{
+    width: 30%;
+    background-color: rgb(243, 195, 64);
+    border-radius: 30px;
+}
+
+.flex1{
+    display: flex;
+  
+}
+
+.flex2{
+    flex-grow: 4;
+    padding: 0 2em;
+}
+
+
+.flex2 p {
+    line-height: 5px;
+}
+
+.flex3{
+    flex-grow: 5;
+    align-self: center;
+}
+
+.flex4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+
